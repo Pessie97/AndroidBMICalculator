@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ResultsActivity"
+    tools:showIn="@layout/activity_results">
+
+    <TextView
+        android:id="@+id/tv_height"
+        style="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/height"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv_height"
+        />
+
+    <TextView
+        android:id="@+id/tv_weight"
+        style="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/weight"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv_height"
+
+        />
+
+    <TextView
+        android:id="@+id/tv_bmi"
+        style="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bmi"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv_weight"
+
+        />
+
+    <TextView
+        android:id="@+id/tv_bmi_group"
+        style="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bmi_group"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv_bmi"
+
+        />
+
+</RelativeLayout>

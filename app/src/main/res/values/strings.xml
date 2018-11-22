@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BMI calculator</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    <string name="title_activity_results">ResultsActivity</string>
+    <string name="bmi">bmi</string>
+    <string name="bmi_group">bmi_group</string>
+</resources>
